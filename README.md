@@ -1,7 +1,8 @@
 # Pipes
-
-## What are Pipes ?
 A pipe takes in data as input and transforms it to a desired output.
+
+## What are different types of pipes built in angular ?
+currency, date, decimal, json, lowercase, uppercase, percent, slice are few of the built in pipes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
