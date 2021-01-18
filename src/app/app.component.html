@@ -43,4 +43,32 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="form-group col">
+      <label>Height in cm</label>
+      <input class="form-control" (input)="onHeightChange($event.target.value)" />
+    </div>
+    
+    <div class="col">
+      <label><b>Height (formated)</b></label>
+      <div>
+        {{ height | number: '1.2-2'}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-group col">
+      <label>Miles</label>
+      <input class="form-control" (input)="onMilesChange($event.target.value)" />
+    </div>
+    
+    <div class="col">
+      <label><b>Kilometers</b></label>
+      <div>
+        {{ miles | convert }}
+      </div>
+    </div>
+  </div>
+
 </div>
